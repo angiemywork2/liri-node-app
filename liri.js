@@ -94,7 +94,7 @@ if (myCommand === "movie-this"){
             var rater = JSON.parse(body).Ratings[1].Source;
             var value = JSON.parse(body).Ratings[1].Value;
             console.log(rater+" rating is:  "+value);
-            	//if (body.
+            console.log("Rating: " +JSON.parse(body).imdbRating);
         }
       } )
 
